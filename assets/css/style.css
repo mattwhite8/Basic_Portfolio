@@ -82,10 +82,10 @@ nav a:hover {
 	width: 650px;
 	border: 1px solid #dddddd;
 	background-color: #ffffff;
-	margin-right: 25px;
+	margin: 0 25px 25px 0;
 }
 
-.main-section img {
+#profile-picture {
 	height: 128px;
 	width: 128px;
 	margin: 16px 10px 0 25px;
@@ -99,13 +99,13 @@ nav a:hover {
 }
 
 .main-section-body {
-	margin: 10px 0 0 20px;
+	margin: 10px 0 20px 20px;
 	padding: 0 25px 20px 0;
 }
 
 .main-section-form {
 	margin: 10px 0 0 26px;
-	padding: 0 25px 20px 0;
+	padding: 0 25px 0 0;
 }
 
 input[type=text], select {
@@ -147,6 +147,50 @@ input[type=submit] {
     cursor: pointer;
 }
 
+.image-holder-left{
+	/*border: 5px solid black;*/
+	height: 200px;
+	width: 200px;
+	position: relative;
+	float: left;
+	margin-bottom: 25px;
+}
+
+.image-holder-right{
+	/*border: 5px solid black;*/
+	height: 200px;
+	width: 200px;
+	position: relative;
+	float: left;
+	margin-left: 146px;
+    margin-bottom: 25px;
+}
+
+.image-holder-left img {
+	height: 200px;
+	width: 250px;
+	margin: 0 0 25px 6px;
+}
+
+.image-holder-right img {
+	height: 200px;
+	width: 250px;
+	margin: 0 0 25px 6px;
+}
+
+.image-banner {
+    position: absolute;
+    top: 145px;
+    left: 6px;
+    z-index: 1;
+    width: 250px;
+    height: 35px;
+    line-height: 35px;
+    background-color: #4aaaa5;
+    text-align: center;
+    color: white;
+}
+
 .side-bar {
 	float: left;
 	width: 270px;
@@ -181,6 +225,7 @@ footer {
 	border-top: 8px solid #4aaaa5;
 	text-align: center;
 	background: #666666;
+	/*margin-top: 10px;*/
 }
 
 footer, .push {
