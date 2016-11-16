@@ -15,6 +15,13 @@ h1, h2, h3 {
 	color: #4aaaa5;
 }
 
+h1 {
+	font-size: 32px;
+}
+
+h3 {
+	font-size: 18px;
+}
 
 p {
 	margin: 0 0 0 5px;
@@ -36,7 +43,7 @@ p {
 
 header {
 	float: left;
-	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	font-family: 'Georgia', Times, Times New Roman, serif;
 	background-color: #4aaaa5;
 	color: white;
 	height: 100px;
@@ -60,7 +67,7 @@ nav {
 
 nav a {
 	text-decoration: none;
-	color: #777777;
+	color: #cccccc;
 	font-size: 15px;
 	font-weight: bold;
 	padding: 8px 12px;
@@ -73,7 +80,7 @@ nav a:hover {
 }
 
 .container {
-	width: 960px;
+	max-width: 960px;
 	margin: 0 auto;
 }
 
@@ -145,12 +152,13 @@ input[type=submit] {
     border: none;
     border-radius: 4px;
     cursor: pointer;
+    font-size: 16px;
 }
 
 .image-holder-left{
 	/*border: 5px solid black;*/
 	height: 200px;
-	width: 200px;
+	width: 250px;
 	position: relative;
 	float: left;
 	margin-bottom: 25px;
@@ -159,22 +167,22 @@ input[type=submit] {
 .image-holder-right{
 	/*border: 5px solid black;*/
 	height: 200px;
-	width: 200px;
+	width: 250px;
 	position: relative;
 	float: left;
-	margin-left: 146px;
+	margin-left: 77px;
     margin-bottom: 25px;
 }
 
 .image-holder-left img {
-	height: 200px;
-	width: 250px;
+	height: 210px;
+	width: 270px;
 	margin: 0 0 25px 6px;
 }
 
 .image-holder-right img {
-	height: 200px;
-	width: 250px;
+	height: 210px;
+	width: 270px;
 	margin: 0 0 25px 6px;
 }
 
@@ -182,13 +190,14 @@ input[type=submit] {
     position: absolute;
     top: 145px;
     left: 6px;
-    z-index: 1;
-    width: 250px;
-    height: 35px;
-    line-height: 35px;
+    /*z-index: 1;*/
+    width: 270px;
+    height: 55px;
+    line-height: 55px;
     background-color: #4aaaa5;
     text-align: center;
     color: white;
+    font-family: 'Georgia', Times, Times New Roman, serif;
 }
 
 .side-bar {
@@ -217,6 +226,7 @@ input[type=submit] {
 	height: auto !important;
 	height: 100%;
 	margin: 0 auto -4em;
+	/*max-width: 960px;*/
 }
 
 footer {
