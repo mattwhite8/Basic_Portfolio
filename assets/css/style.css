@@ -16,11 +16,12 @@ html, body {
 
 h1, h2, h3 {
 	font-family: 'Georgia', Times, Times New Roman, serif;
+	font-weight: bold;
 	color: #4aaaa5;
 }
 
 h1 {
-	font-size: 32px;
+	font-size: 24px;
 }
 
 h3 {
@@ -48,6 +49,7 @@ p {
 header {
 	float: left;
 	font-family: 'Georgia', Times, Times New Roman, serif;
+	font-weight: bold;
 	background-color: #4aaaa5;
 	color: white;
 	height: 100px;
@@ -98,13 +100,13 @@ nav a:hover {
 
 #profile-picture {
 	height: 128px;
-	width: 128px;
-	margin: 16px 10px 0 25px;
+	width: 145px;
+	margin: 6px 15px 0 25px;
 	float: left;
 }
 
 .main-section-header {
-	margin: 15px 25px 0 25px;
+	margin: 30px 25px 20px 25px;
 	height: 45px;
 	border-bottom: solid #cccccc;
 }
@@ -115,7 +117,7 @@ nav a:hover {
 }
 
 .main-section-form {
-	margin: 10px 0 0 26px;
+	margin: 10px 0 15px 26px;
 	padding: 0 25px 0 0;
 }
 
@@ -212,7 +214,7 @@ input[type=submit] {
 }
 
 .side-bar-header {
-	margin: 10px 25px 0 25px;
+	margin: 25px 25px 0 25px;
 	height: 30px;
 	border-bottom: 1px solid #cccccc;
 }
@@ -222,7 +224,7 @@ input[type=submit] {
 }
 
 .side-bar-body {
-	margin: 15px 0 15px 15px;
+	margin: 20px 0 30px 15px;
 }
 
 .wrapper {
@@ -230,7 +232,6 @@ input[type=submit] {
 	height: auto !important;
 	height: 100%;
 	margin: 0 auto -4em;
-	/*max-width: 960px;*/
 }
 
 footer {
@@ -239,7 +240,11 @@ footer {
 	border-top: 8px solid #4aaaa5;
 	text-align: center;
 	background: #666666;
-	/*margin-top: 10px;*/
+}
+
+#footer-text {
+	font-size: 10px;
+	line-height: 53px;
 }
 
 footer, .push {
